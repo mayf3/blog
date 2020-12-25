@@ -2,7 +2,7 @@
 title: "初次尝试K近邻算法"
 date: 2020-10-25T09:28:00+08:00
 lastmod: 2020-10-25T09:28:00+08:00
-draft: true
+draft: false
 tags: ["machine-learning", "knn"]
 categories: ["machine-learning"]
 author: mayf3
