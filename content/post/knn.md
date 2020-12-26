@@ -122,6 +122,6 @@ $$
 机器学习 第十章 降维与度量学习  
 统计学习方法 第三章 k近邻法  
 特征工程入门与实践 第三章 特征增强：清洗数据 - 3.3 标准化和归一化  
-[Nearest Neighbor Pattern Classification](https://pdfs.semanticscholar.org/a3c7/50febe8e72a1e377fbae1a723768b233e9e9.pdf?_ga=2.260660749.1635069309.1608960216-652721388.1605965658)
+[Nearest Neighbor Pattern Classification](https://pdfs.semanticscholar.org/a3c7/50febe8e72a1e377fbae1a723768b233e9e9.pdf?_ga=2.260660749.1635069309.1608960216-652721388.1605965658)  
 [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)  
 [Comparative Analysis of KNN Algorithm using Various Normalization Techniques](http://j.mecs-press.net/ijcnis/ijcnis-v9-n11/IJCNIS-V9-N11-4.pdf)  
