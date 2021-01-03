@@ -1,7 +1,7 @@
 ---
 title: "简介knn算法"
-date: 2020-10-25T09:28:00+08:00
-lastmod: 2020-10-26T21:38:00+08:00
+date: 2020-12-25T09:28:00+08:00
+lastmod: 2020-12-26T21:38:00+08:00
 draft: false
 tags: ["machine-learning", "knn"]
 categories: ["machine-learning"]
