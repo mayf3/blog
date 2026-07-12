@@ -155,7 +155,7 @@ Running the `hugo` command with no options will read all the available content a
 ```
 $ hugo --verbose
 INFO: 2014/09/29 Using config file: config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [index.html _default/list.html _default/single.html]
 WARN: 2014/09/29 Unable to locate layout: [404.html]
 0 draft content
@@ -203,8 +203,8 @@ Verify that you can run the built-in web server. It will dramatically shorten yo
 
 ```
 $ hugo server --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [index.html _default/list.html _default/single.html]
 WARN: 2014/09/29 Unable to locate layout: [404.html]
 0 draft content
@@ -213,7 +213,7 @@ WARN: 2014/09/29 Unable to locate layout: [404.html]
 0 tags created
 0 categories created
 in 2 ms
-Serving pages from /Users/quoha/Sites/zafta/public
+Serving pages from /home/user/Sites/zafta/public
 Web Server is available at http://localhost:1313
 Press Ctrl+C to stop
 ```
@@ -336,9 +336,9 @@ Now that we have an empty theme, let's generate the site again.
 
 ```
 $ hugo --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/themes/zafta/static/ to /home/user/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
 0 future content
@@ -458,9 +458,9 @@ Here's sample output showing Hugo detecting a change to the template for the hom
 ```
 $ rm -rf public
 $ hugo server --watch --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/themes/zafta/static/ to /home/user/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
 0 future content
@@ -468,11 +468,11 @@ WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 tags created
 0 categories created
 in 2 ms
-Watching for changes in /Users/quoha/Sites/zafta/content
-Serving pages from /Users/quoha/Sites/zafta/public
+Watching for changes in /home/user/Sites/zafta/content
+Serving pages from /home/user/Sites/zafta/public
 Web Server is available at http://localhost:1313
 Press Ctrl+C to stop
-INFO: 2014/09/29 File System Event: ["/Users/quoha/Sites/zafta/themes/zafta/layouts/index.html": MODIFY|ATTRIB]
+INFO: 2014/09/29 File System Event: ["/home/user/Sites/zafta/themes/zafta/layouts/index.html": MODIFY|ATTRIB]
 Change detected, rebuilding site
 
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
@@ -515,9 +515,9 @@ Build the web site and then verify the results.
 
 ```
 $ hugo --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/themes/zafta/static/ to /home/user/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
 0 future content
@@ -568,9 +568,9 @@ Hugo has a command to generate a skeleton post, just like it does for sites and 
 
 ```
 $ hugo --verbose new post/first.md
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
 INFO: 2014/09/29 attempting to create  post/first.md of post
-INFO: 2014/09/29 curpath: /Users/quoha/Sites/zafta/themes/zafta/archetypes/default.md
+INFO: 2014/09/29 curpath: /home/user/Sites/zafta/themes/zafta/archetypes/default.md
 ERROR: 2014/09/29 Unable to Cast <nil> to map[string]interface{}
 
 $
@@ -594,18 +594,18 @@ $ find themes/zafta/archetypes -type f | xargs ls -l
 -rw-r--r--  1 quoha  staff  51 Sep 29 21:54 themes/zafta/archetypes/post.md
 
 $ hugo --verbose new post/first.md
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
 INFO: 2014/09/29 attempting to create  post/first.md of post
-INFO: 2014/09/29 curpath: /Users/quoha/Sites/zafta/themes/zafta/archetypes/post.md
-INFO: 2014/09/29 creating /Users/quoha/Sites/zafta/content/post/first.md
-/Users/quoha/Sites/zafta/content/post/first.md created
+INFO: 2014/09/29 curpath: /home/user/Sites/zafta/themes/zafta/archetypes/post.md
+INFO: 2014/09/29 creating /home/user/Sites/zafta/content/post/first.md
+/home/user/Sites/zafta/content/post/first.md created
 
 $ hugo --verbose new post/second.md
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
 INFO: 2014/09/29 attempting to create  post/second.md of post
-INFO: 2014/09/29 curpath: /Users/quoha/Sites/zafta/themes/zafta/archetypes/post.md
-INFO: 2014/09/29 creating /Users/quoha/Sites/zafta/content/post/second.md
-/Users/quoha/Sites/zafta/content/post/second.md created
+INFO: 2014/09/29 curpath: /home/user/Sites/zafta/themes/zafta/archetypes/post.md
+INFO: 2014/09/29 creating /home/user/Sites/zafta/content/post/second.md
+/home/user/Sites/zafta/content/post/second.md created
 
 $ ls -l content/post
 total 16
@@ -642,9 +642,9 @@ Build the web site and then verify the results.
 ```
 $ rm -rf public
 $ hugo --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/themes/zafta/static/ to /home/user/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"category":"categories", "tag":"tags"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
@@ -715,9 +715,9 @@ Build the web site and then verify the results.
 ```
 $ rm -rf public
 $ hugo --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/themes/zafta/static/ to /home/user/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"tag":"tags", "category":"categories"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
@@ -792,9 +792,9 @@ Build the web site and verify the results.
 ```
 $ rm -rf public
 $ hugo --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/themes/zafta/static/ to /home/user/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"tag":"tags", "category":"categories"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
@@ -861,9 +861,9 @@ Build the web site and verify the results.
 ```
 $ rm -rf public
 $ hugo --verbose
-INFO: 2014/09/29 Using config file: /Users/quoha/Sites/zafta/config.toml
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/themes/zafta/static/ to /Users/quoha/Sites/zafta/public/
-INFO: 2014/09/29 syncing from /Users/quoha/Sites/zafta/static/ to /Users/quoha/Sites/zafta/public/
+INFO: 2014/09/29 Using config file: /home/user/Sites/zafta/config.toml
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/themes/zafta/static/ to /home/user/Sites/zafta/public/
+INFO: 2014/09/29 syncing from /home/user/Sites/zafta/static/ to /home/user/Sites/zafta/public/
 INFO: 2014/09/29 found taxonomies: map[string]string{"tag":"tags", "category":"categories"}
 WARN: 2014/09/29 Unable to locate layout: [404.html theme/404.html]
 0 draft content
