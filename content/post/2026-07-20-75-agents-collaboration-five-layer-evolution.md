@@ -133,7 +133,6 @@ Agent A 把结果写到文件里，Agent B 去读那个文件。比如我的随�
 
 ---
 
-> 📎 **飞书文档版**: https://feishu.cn/docx/KUXwdUR4No3KpPxo7Njcj3cGnlh
 
 下一篇会展开讲：**身份认证系统具体怎么做的，踩了哪些坑。**
 
