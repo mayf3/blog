@@ -28,9 +28,10 @@ jobs:
       - name: Deploy to mayf3.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN 无法跨仓库推送（2026-08-07 起全部失败），改用 DEPLOY_KEY
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
           publish_dir: ./public
-          publish_branch: master  # mayf3.github.io 的分支
+          publish_branch: main  # mayf3.github.io 的 Pages 服务分支是 main（不是 master）
           external_repository: mayf3/mayf3.github.io
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
